@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main(){
+
+    int a = 25;
+    int b = 60;
+    int c = a + b;
+    cout << "Print the sum of two numbers :\n";
+    cout << "------------------------------\n";
+    cout << "The sum of "<< a << " and "<< b << " is "<<c<<endl;
+    return 0;
+}
