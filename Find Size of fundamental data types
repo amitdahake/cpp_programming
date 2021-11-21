@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int a, b, c, d, e,f ,g ,h ,i;
+   a = sizeof(char);
+   b = sizeof(short) ;
+   c = sizeof(int);
+   d = sizeof(long) ;
+   e = sizeof(long long);
+   f = sizeof(float) ;
+   g = sizeof(double);
+   h = sizeof(long double);
+   i = sizeof(bool);
+
+    cout<<"Find Size of fundamental data types \n";
+    cout<<"-------------------------------------\n";
+    cout<<"The sizeof(char) is : "<<a<< " bytes \n";
+    cout<<"The sizeof(short) is : "<<b<< " bytes \n";
+    cout<<"The sizeof(int) is : "<<c<< " bytes \n";
+    cout<<"The sizeof(long) is : "<<d<< " bytes \n";
+    cout<<"The sizeof(long long) is : "<<e<< " bytes \n";
+    cout<<"The sizeof(float) is : "<<f<< " bytes \n";
+    cout<<"The sizeof(double) is : "<<g<< " bytes \n";
+    cout<<"The sizeof(long double) is : "<<h<< " bytes \n";
+    cout<<"The sizeof(bool) is : "<<i<< " bytes \n";
+
+
+
+return 0;
+}
+
