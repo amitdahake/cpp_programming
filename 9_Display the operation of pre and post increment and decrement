@@ -1,0 +1,45 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int first_val = 66;
+
+    cout<<"Display the operation of pre and post increment and decrement :"<<endl;
+    cout<<"----------------------------------------------------------------"<<endl;
+    cout<<"The number is : "<<first_val<<endl<<endl;
+
+    //here is After post increment by 1 the number is :
+
+    first_val++;
+    int post_increament_val = first_val;
+    cout<<"After post increment by 1 the number is : "<<post_increament_val<<endl;
+
+    //here is After pre increment by 1 the number is :
+
+    int pre_increament_val = ++first_val;
+    cout<<"After pre increment by 1 the number is : "<< pre_increament_val<<endl;
+
+    //After increasing by 1 the number is :
+
+    first_val = first_val+1;
+    int increase_val = first_val;
+    cout<<"After increasing by 1 the number is : "<<increase_val<<endl<<endl;
+
+    //After post decrement by 1 the number is :
+
+    int post_decreament_val = first_val--;
+    cout<<"After post decrement by 1 the number is : "<<first_val<<endl;
+
+    //After pre decrement by 1 the number is :
+
+    int pre_decreament_val = --first_val;
+    cout<<"After pre decrement by 1 the number is : "<<first_val<<endl;
+
+    //After decreasing by 1 the number is :
+
+    first_val = first_val-1;
+    int decrease_val = first_val;
+    cout<<"After decreasing by 1 the number is : "<<first_val<<endl;
+
+return 0;
+}
+
