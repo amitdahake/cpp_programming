@@ -1,0 +1,18 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+int main(){
+
+double a=5, b=5, c=5;
+double s,areaoftri, sqrtoftri;
+
+ s = (a+b+c)/2;
+
+ sqrtoftri = s*(s-a)*(s-b)*(s-c);
+
+ areaoftri = sqrt(sqrtoftri);
+
+ cout<<areaoftri;
+return 0;
+}
