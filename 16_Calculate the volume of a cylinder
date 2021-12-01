@@ -1,0 +1,29 @@
+
+
+#include <iostream>
+using namespace std;
+int main(){
+
+    //declaring variables
+
+  double rad, height, vol;
+
+  // entering the radius and height of cylinder
+
+  cout<<"enter the radius of cylinder: "<<endl;
+  cin>>rad;
+
+  cout<<"enter the height of cylinder: "<<endl;
+  cin>>height;
+
+  //using cylinder volume formula
+
+  vol = 3.14*rad*rad*height;
+
+  cout<<"Input the radius of the cylinder : "<<rad<<endl;
+  cout<<"Input the height of the cylinder : "<<height<<endl;
+  cout<<"The volume of a cylinder is : "<<vol<<endl;
+
+
+return 0;
+}
