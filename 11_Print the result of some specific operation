@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main(){
+
+  double x,y;
+  cout<<"enter the 1st value: "<<endl;
+  cin>>x;
+
+  cout<<"enter the 2st value: "<<endl;
+  cin>>y;
+
+  cout<<"1st expression: (x*y)/(x+y)"<<endl;
+  cout<<"Result of 1st expression is : "<<(x*y)/(x+y)<<endl<<endl;
+
+  cout<<"2st expression: x^2 - y^2"<<endl;
+  cout<<"Result of 2st expression is : "<<(x*x)-(y*y)<<endl<<endl;
+
+  cout<<"3st expression: (x*y)"<<endl;
+  cout<<"Result of 3st expression is : "<<(x*y)<<endl<<endl;
+
+  cout<<"4st expression: (x+y)"<<endl;
+  cout<<"Result of 4st expression is : "<<(x+y)<<endl<<endl;
+
+return 0;
+}
