@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+int main(){
+
+  double x,y;
+  cout<<"enter the 1st value: "<<endl;
+  cin>>x;
+
+  cout<<"enter the 2nd value: "<<endl;
+  cin>>y;
+  cout<<endl;
+
+  cout<<"Input 1st number: "<<x<<endl;
+  cout<<"Input 2nd number: "<<y<<endl;
+
+
+  double temp;
+  temp = x;
+  x = y;
+  y = temp;
+
+
+  cout<<"After swapping the 1st number is: "<<x<<endl;
+  cout<<"After swapping the 2nd number is: "<<y<<endl;
+
+
+return 0;
+}
+
