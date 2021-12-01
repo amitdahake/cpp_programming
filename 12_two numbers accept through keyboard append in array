@@ -1,0 +1,66 @@
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+    //     **THIS IS MODIFIED PROGRAM**
+
+  //here we are creating array
+
+  int len , num;
+  cout<<"enter length of arr"<<endl;
+  cin>> len;
+
+  int arr[len] = {};
+
+  // making for loop for entering numbers
+
+  for(int j= 0; j<len; j++){
+    cout<<"enter " << j+1 << " number: ";
+    cin>>num;
+    arr[j] = num;
+  }
+  cout<<endl;
+
+
+  /*int i,a,x,y;
+  cout<<"Original array:"<<endl;*/
+
+  //int len = sizeof(arr)/sizeof(arr[0]);
+
+ cout<<"This is created array:"<<endl;
+ cout<<"[";
+  for(int i=0;i<len;i++)
+    {
+    cout<<arr[i];
+    if(i<len-1){
+        cout<<", ";
+               }
+    }
+    cout << "]"<<endl;
+
+    // below code can use for addition of two numbers as title
+
+    // enter the numbers
+
+  /*cout<<"add two number"<<endl;
+  cout<<"enter first number: "<<endl;
+  cin>>x;
+  cout<<"enter second number: "<<endl;
+  cin>>y;
+
+ arr[3] = x;
+ arr[4] = y;
+
+   int length = sizeof(arr)/sizeof(arr[0]);
+
+  for(a=0;a<length;a++)
+    {
+    cout<<arr[a]<<endl;
+
+    }
+*/
+
+
+  return 0;
+}
