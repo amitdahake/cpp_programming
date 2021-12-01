@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+int main(){
+
+    //declaring variables
+
+  double len, wid, area, peri;
+
+  // entering the length and width of rectangle
+
+  cout<<"enter the length of rectangle: "<<endl;
+  cin>>len;
+
+  cout<<"enter the width of rectangle: "<<endl;
+  cin>>wid;
+
+  //using perimeter and area of rectangle formula
+
+  area = len*wid;
+  peri = 2*(len+wid);
+
+  cout<<"Input the length of the rectangle : "<<len<<endl;
+  cout<<"Input the width of the rectangle : "<<wid<<endl;
+  cout<<"The area of the rectangle is : "<<area<<endl;
+  cout<<"The perimeter of the rectangle is : "<<peri<<endl;
+
+
+return 0;
+}
