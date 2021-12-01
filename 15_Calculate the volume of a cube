@@ -1,0 +1,25 @@
+
+
+#include <iostream>
+using namespace std;
+int main(){
+
+    //declaring variables
+
+  double side, vol;
+
+  // entering the side of cube
+
+  cout<<"enter the side of cube: "<<endl;
+  cin>>side;
+
+  //using cube volume formula
+
+  vol = side*side*side;
+
+  cout<<"Input the side of a cube  : "<<side<<endl;
+  cout<<"The volume of a cube is : "<<vol<<endl;
+
+
+return 0;
+}
