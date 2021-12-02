@@ -1,0 +1,27 @@
+
+
+#include <iostream>
+using namespace std;
+    int main(){
+
+   int year1,year2, leap_year;
+
+   cout<<"enter starting year: ";
+   cin>>year1;
+   cout<<"enter end year: ";
+   cin>>year2;
+   cout<<endl;
+
+   for(int i= year1; i<year2; i++){
+    if(((i%4==0)&&(i%100!=0))||(i%400==0))
+       {
+        leap_year = leap_year+1;
+    }
+   }
+
+    cout<<"total leap years are : "<<leap_year<<endl;
+
+
+
+    return 0;
+    }
