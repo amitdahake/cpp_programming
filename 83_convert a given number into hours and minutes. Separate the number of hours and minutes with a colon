@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+
+
+         // input of time
+
+        int time, hour, minute, limit;
+        cout<<"Enter time: ";
+        cin>>time;
+        if(time>60){
+            minute = time%60;
+            time = time - minute;
+            hour = time/60;
+
+            cout<<"hour and minute: "<<hour<<':'<<minute<<endl;
+
+        }
+         return 0;
+}
